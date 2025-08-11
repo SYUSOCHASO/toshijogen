@@ -498,6 +498,7 @@ body {
     font-weight: 400;
     color: var(--primary-color);
     font-family: 'Orbitron', monospace;
+    display: inline; /* インライン表示に変更 */
 }
 
 .subtitle-cursor {
@@ -507,6 +508,7 @@ body {
     background: var(--primary-color);
     margin-left: 5px;
     animation: blink 1s infinite;
+    vertical-align: middle; /* 垂直位置を調整 */
 }
 
 @keyframes blink {
